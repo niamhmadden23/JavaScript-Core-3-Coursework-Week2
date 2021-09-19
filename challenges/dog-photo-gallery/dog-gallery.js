@@ -19,6 +19,6 @@ function getImages() {
       images.src = result.message;
     })
     .catch((err) => {
-      console.log(err);
+      console.log("Failed to load image", err);
     });
 }
